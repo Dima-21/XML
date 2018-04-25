@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE MyFavoriteHobby[
+  <!ELEMENT MyFavoriteHobby (Books, Films, Musics)>
+  <!ELEMENT Books (Book*)>
+  <!ELEMENT Films (Film*)>
+  <!ELEMENT Musics (Music*)>
+  <!ELEMENT Book (Name, OriginalName, Author)>
+  <!ELEMENT Name (#PCDATA)>
+  <!ELEMENT OriginalName (#PCDATA)>
+  <!ELEMENT Author (Name, Surname)>
+  <!ELEMENT Name (#PCDATA)>
+  <!ELEMENT Surname (#PCDATA)>
+  <!ATTLIST Book Name CDATA #IMPLIED>
+  
+
+]>
+
+
+
+<MyFavoriteHobby>
+  <Books>
+    <Book Name ="Язык программирования C#" OriginalName ="C# Programming Language">
+      <Author Name ="Андерс" Surname="Хейлсберг"></Author>
+    </Book>
+  </Books>
+
+  <Films>
+    <Film Name ="Пираты Карибского моря: Проклятие Чёрной жемчужины" OriginalName ="Pirates of the Caribbean: The Curse of The Black Pearl" DateOfCreate="2003">
+      <Genre>Приключения</Genre>
+      <Genre>"Экшн</Genre>
+      <Genre>Фэнтези</Genre>
+      <Producer Name="Джерри" Surname="Брукхаймер" ></Producer>
+      <Actor Name="Джонни" Surname="Депп" ></Actor>
+      <Actor Name="Джеффри" Surname="Раш" ></Actor>
+      <Actor Name="Кевин" Surname="МакНелли" ></Actor>
+      <Actor Name="Орландо" Surname="Блум" ></Actor>
+      <Actor Name="Кира" Surname="Найтли" ></Actor>
+    </Film>
+  </Films>
+
+  <Musics>
+    <Group Name ="System of a Down" DateOfCreation="1992">
+      <Drum>Джон Долмаян</Drum>
+      <Vocalist>Дарон Малакян</Vocalist>
+      <Producer>Рик Рубин</Producer>
+      <GuitarPlayer>Дарон Малакян</GuitarPlayer>
+      <Album Name ="Hypnotize" Genre ="Rock" Date="2005">
+        <Music Name ="Attack" Duration="3:06"></Music>
+        <Music Name ="Dreaming" Duration="3:59"></Music>
+      </Album>
+    </Group>
+  </Musics>
+</MyFavoriteHobby>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE catalog[
+	<!ENTITY author "Albert">
+	<!ELEMENT catalog (category+)>
+	<!ELEMENT category (category*)>
+	<!ELEMENT book (title,author,year)>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT author (#PCDATA)>
+	<!ELEMENT year (#PCDATA)>
+	<!ATTLIST category name CDATA #IMPLIED>
+	
+]>
+<catalog>
+	<category name="fantasi">
+		<book>
+			<title>Василиса</title>
+			<author>&author;</author>
+			<year>2009</year>
+		</book>
+		<book>
+			<title>Петя петушок</title>
+			<author>&author;</author>
+			<year>2008</year>
+		</book>
+		<book>
+			<title>Бобик</title>
+			<author>&author;</author>
+			<year>2007</year>
+		</book>
+	</category>
+	<category name="history">
+		<book>
+			<title>Граф Монте-Кристо</title>
+			<author>Дюма</author>
+			<year>неизвестно</year>
+		</book>
+		<book>
+			<title>Смерть мое ремесло</title>
+			<author>неизвестен</author>
+			<year>1948</year>
+		</book>
+		<book>
+			<title>Тарзан</title>
+			<author>Поц</author>
+			<year>2010 до н.е.</year>
+		</book>
+
+	</category>
+
+</catalog>

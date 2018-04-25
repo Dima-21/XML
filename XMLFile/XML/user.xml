@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<users xmlns="x-schema:schema.xdr">
+  <user>
+    <fio id="I1">asd</fio>
+    <age id="I2">123</age>
+    <sellery id="I3">1234</sellery>
+  </user>
+  <user>
+    <fio id="I4">asd</fio>
+    <age id="I5">123</age>
+    <sellery id="I6">1234</sellery>
+  </user>
+  <user>
+    <fio id="I7">asd</fio>
+    <age if="I8">123</age>
+    <sellery id="I9">1234</sellery>
+  </user>
+</users>

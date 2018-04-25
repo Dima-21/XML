@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<Schema name="schema.xdr"    
+        xmlns="urn:schemas-microsoft-com:xml-data"
+        xmlns:dt="urn:schemas-microsoft-com:datatypes">
+  <AttributeType name="id" dt:type="string" required="yes"/>
+  <ElementType name="users" content="eltOnly">
+    <Element type="user"/>
+  </ElementType>
+  <ElementType name="user" content="eltOnly">
+    <Element type="fio"/>
+    <Element type="age"/>
+    <Element type="sellery"/>
+  </ElementType>
+  <ElementType name="fio" content="textOnly">
+    <attribute type="id"/>
+  </ElementType>
+  <ElementType name="age" content="textOnly">
+    <attribute type="id"/>
+  </ElementType>
+  <ElementType name="sellery" content="textOnly">
+    <attribute type="id"/>
+  </ElementType>
+  <ElementType name="fio" content="textOnly" dt:type="string"/>
+  <ElementType name="age" content="textOnly" dt:type="int"/>
+  <ElementType name="sellery" content="textOnly" dt:type="number"/>
+
+</Schema>

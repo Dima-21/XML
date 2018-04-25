@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Vehicle>
+  
+  <Buses>
+    <Bus manufacturer ="Богдан" mark ="Богдан" model="А-092" dateofcreate="2004" seat_place="24" full_capacity="38"></Bus>
+    <Bus manufacturer ="Богдан" mark ="Богдан" model="А-092" dateofcreate="2007" seat_place="26" full_capacity="40"></Bus>
+  </Buses>
+  
+  <Trolleybuses>
+    <Trolleybus manufacturer ="Богдан" mark ="Богдан" model="Т701.10" dateofcreate="2012" seat_place="34" full_capacity="105"></Trolleybus>
+    <Trolleybus manufacturer ="Лаз" mark ="ЛАЗ" model="Е301" dateofcreate="2008" seat_place="46" full_capacity="230"></Trolleybus>
+    <Trolleybus manufacturer ="Лаз" mark ="ЛАЗ" model="Е183" dateofcreate="2012" seat_place="32" full_capacity="120"></Trolleybus>
+  </Trolleybuses>
+
+  <Trams>
+    <Tram manufacturer ="ČKD Praha" mark ="Tatra" model="T6B5" dateofcreate="2000" seat_place="40" full_capacity="166"></Tram>
+    <Tram manufacturer ="Белкоммунмаш" mark ="Tatra" model="T6B5" dateofcreate="2000" seat_place="40" full_capacity="166"></Tram>
+  </Trams>
+  
+</Vehicle>
